@@ -70,7 +70,7 @@ function App() {
     }
   };
 
-  // 2. Bonus Feature: Tasks Filter करण्याचे लॉजिक
+  // 2. Bonus Feature: Tasks Filter 
   const filteredTasks = tasks.filter(task => {
     if (filterStatus === 'All') return true;
     return task.status === filterStatus;
